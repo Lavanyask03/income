@@ -1,8 +1,8 @@
 # 1. import dataset adult.csv
-adult <- read.csv("C:/Users/Lavanya.DESKTOP-SIIUMJV/PythonProjects/machine_learning/Adult_Census_Income-Classification/adult.csv",
-                  header = TRUE)
+adult <- read.csv("./adult.csv", header = TRUE)
 View(adult)
 summary(adult)
+# Output:
 # age              workclass             fnlwgt         education         education.num   marital.status    
 # Min.   :17.00   Length:32561       Min.   :  12285   Length:32561       Min.   : 1.00   Length:32561      
 # 1st Qu.:28.00   Class :character   1st Qu.: 117827   Class :character   1st Qu.: 9.00   Class :character  
